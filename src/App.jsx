@@ -5,7 +5,7 @@ export default function App() {
   const checkUser = async () => {
     try {
       console.log("requestr done")
-      const res = await fetch("http://localhost:3000/protected", {
+      const res = await fetch("https://demo-clerk-olive.vercel.app/protected", {
         headers: {
           "Content-Type": "application/json",
         },
